@@ -1,0 +1,52 @@
+{
+  "name": "arrow-fun-snippets",
+  "displayName": "Arrow Fun Snippets",
+  "description": "Simple arrow function snippets that will make you more faster for code JS/TS/JSX/TSX",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "keywords": [
+    "snippets",
+    "react",
+    "redux",
+    "react-native",
+    "customizable",
+    "javascript",
+    "typescript"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "url": "https://github.com/TWulfZ/Arrow-Fun-Snippets",
+    "type": "git"
+  },
+  "publisher": "TWulfZ",
+  "icon": "images/logo.png",
+  "author": {
+    "name": "TWulfZ",
+    "email": "twulfzqpro@gmail.com",
+    "url": "https://github.com/TWulfZ"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-ts.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.json"
+      }
+    ]
+  }
+}

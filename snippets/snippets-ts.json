@@ -1,0 +1,43 @@
+{
+	"Arrow Function": {
+		"prefix": "arr",
+		"body": [
+			"() => {",
+			"  $2",
+			"}"
+		],
+		"description": "Void arrow function"
+	},
+
+	"Arrow Function with param": {
+		"prefix": "arrp",
+		"body": [
+			"(param$2: type$1) => {",
+			"  return param$2",
+			"}"
+		],
+		"description": "Arrow function with params"
+	},
+
+	"Const void arrow function ": {
+		"prefix": "arrc",
+		"body": [
+			"const arrFn = () => {",
+			"  $2",
+			"}"
+		],
+		"description": "Constant void arrow function"
+	},
+
+	"Const arrow function with params": {
+		"prefix": "arrcp",
+		"body": [
+			"const arrFn = (param$2: type$1) => {",
+			"  return param$2",
+			"}"
+		],
+		"description": "Const arrow function with params"
+	}
+	
+
+}
