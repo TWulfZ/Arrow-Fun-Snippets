@@ -22,7 +22,7 @@
 	"Const void arrow function ": {
 		"prefix": "arrc",
 		"body": [
-			"const arrFn = () => {",
+			"const arrFn$1 = () => {",
 			"  $2",
 			"}"
 		],
@@ -32,12 +32,64 @@
 	"Const arrow function with params": {
 		"prefix": "arrcp",
 		"body": [
-			"const arrFn = (param$2: type$1) => {",
-			"  return param$2",
+			"const arrFn$1 = (param$3: type$2) => {",
+			"  return param$3",
 			"}"
 		],
 		"description": "Const arrow function with params"
-	}
-	
-
+	},
+  "Timeout arrow function": {
+    "prefix": "arrt",
+    "body": [
+      "setTimeout(() => {",
+      "  $2",
+      "}, 1$1_000)"
+    ],
+    "description": "Timeout arrow function"
+  },
+	"Void async arrow function": {
+    "prefix": "arr as",
+    "body": [
+      "async () => {",
+      "  $1",
+      "}"
+    ],
+    "description": "Void async arrow function"
+  },
+  "Async arrow function with params": {
+    "prefix": "arrp as",
+    "body": [
+      "async (param$1: type$2) => {",
+      "  return param$1",
+      "}"
+    ],
+    "description": "Async arrow function with params (with types)"
+  },
+  "Const void async arrow function": {
+    "prefix": "arrc as",
+    "body": [
+      "const asyncArrFn$1 = async () => {",
+      "  $2",
+      "}"
+    ],
+    "description": "Const void async arrow function"
+  },
+  "Const async arrow function with params": {
+    "prefix": "arrcp as",
+    "body": [
+      "const asyncArrFn$1 = async (param$3: type$2) => {",
+      "  return param$3",
+      "}"
+    ],
+    "description": "Const async arrow function with params (with types)"
+  },
+  "Timeout async arrow function": {
+    "prefix": "arrt as",
+    "body": [
+      "setTimeout(async () => {",
+      "  $2",
+      "}, 1$1_000)"
+    ],
+    "description": "Timeout async arrow function"
+  }
 }

@@ -2,9 +2,9 @@
   "name": "arrow-fun-snippets",
   "displayName": "Arrow Fun Snippets",
   "description": "Simple arrow function snippets that will make you more faster for code JS/TS/JSX/TSX",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
-    "vscode": "^1.89.0"
+    "vscode": "^1.63.0"
   },
   "keywords": [
     "snippets",

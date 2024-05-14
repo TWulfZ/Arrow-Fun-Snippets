@@ -7,19 +7,31 @@ Make your code faster
 
 | Snippet | Renders                                       |
 | ------- | --------------------------------------------- |
-| `arr`   | Void arrow function                           |
-| `arrp`  | Arrow function with params                    |
-| `arrc`  | Arrow function with params                    |
-| `arrcp`  | Const arrow function with params             |
+| `arr`     | Void arrow function                           |
+| `arrp`    | Arrow function with params                    |
+| `arrc`    | Const void arrow function                     |
+| `arrcp`   | Const arrow function with params              |
+| `arrt`    | Timeout arrow function                        |
+| `arr as`  | Void async arrow function                     |
+| `arrp as` | Async arrow function with params              |
+| `arrc as` | Const void async arrow function               |
+| `arrcp as`| Const async arrow function with params        |
+| `arrt as` | Timeout async arrow function                  |
 
 ## Snippets on TS/TSX
 
-| Snippet | Renders                                       |
-| ------- | --------------------------------------------- |
-| `arr`   | Void arrow function                           |
-| `arrp`  | Arrow function with params (with types)       |
-| `arrc`  | Arrow function with params                    |
-| `arrcp`  | Const arrow function with params (with types)|
+| Snippet   | Renders                                            |
+| -------   | ---------------------------------------------      |
+| `arr`     | Void arrow function                                |
+| `arrp`    | Arrow function with params (with types)            |
+| `arrc`    | Const void function                                |
+| `arrcp`   | Const arrow function with params (with types)      |
+| `arrt`    | Timeout arrow function                             |
+| `arr as`  | Void async arrow function                          |
+| `arrp as` | Async arrow function with params (with types)      |
+| `arrc as` | Const void async arrow function                    |
+| `arrcp as`| Const async arrow function with params (with types)|
+| `arrt as` | Timeout async arrow function                       |
 
 
 ## Feedback
