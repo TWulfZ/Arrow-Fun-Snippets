@@ -1,6 +1,9 @@
 # arrow-fun-snippets
+![ArrowFunSnippets banner](https://github.com/user-attachments/assets/ecee822b-ce3b-49ea-935f-320dac17831d)
+
 
 Make your code faster
+
 ![feature Arrow Fun Snippets](images/feature.gif)
 
 ## Snippets on JS/JSX
